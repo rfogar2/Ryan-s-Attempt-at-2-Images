@@ -7,20 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34AE815A1A8ACB5700E501DE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34AE81591A8ACB5700E501DE /* Default@2x.png */; };
 		F487BB941A8A920A00DB46A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F487BB931A8A920A00DB46A5 /* UIKit.framework */; };
 		F487BB961A8A920A00DB46A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F487BB951A8A920A00DB46A5 /* Foundation.framework */; };
 		F487BB981A8A920A00DB46A5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F487BB971A8A920A00DB46A5 /* CoreGraphics.framework */; };
 		F487BB9E1A8A920A00DB46A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F487BB9C1A8A920A00DB46A5 /* InfoPlist.strings */; };
 		F487BBA01A8A920A00DB46A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F487BB9F1A8A920A00DB46A5 /* main.m */; };
 		F487BBA41A8A920A00DB46A5 /* APPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F487BBA31A8A920A00DB46A5 /* APPAppDelegate.m */; };
-		F487BBA61A8A920A00DB46A5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F487BBA51A8A920A00DB46A5 /* Default.png */; };
-		F487BBA81A8A920A00DB46A5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F487BBA71A8A920A00DB46A5 /* Default@2x.png */; };
-		F487BBAA1A8A920A00DB46A5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F487BBA91A8A920A00DB46A5 /* Default-568h@2x.png */; };
 		F487BBAD1A8A920A00DB46A5 /* APPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F487BBAC1A8A920A00DB46A5 /* APPViewController.m */; };
 		F487BBB01A8A920A00DB46A5 /* APPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F487BBAE1A8A920A00DB46A5 /* APPViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		34AE81591A8ACB5700E501DE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		F487BB901A8A920A00DB46A5 /* Camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Camera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F487BB931A8A920A00DB46A5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F487BB951A8A920A00DB46A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -31,9 +30,6 @@
 		F487BBA11A8A920A00DB46A5 /* Camera-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Camera-Prefix.pch"; sourceTree = "<group>"; };
 		F487BBA21A8A920A00DB46A5 /* APPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APPAppDelegate.h; sourceTree = "<group>"; };
 		F487BBA31A8A920A00DB46A5 /* APPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APPAppDelegate.m; sourceTree = "<group>"; };
-		F487BBA51A8A920A00DB46A5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		F487BBA71A8A920A00DB46A5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		F487BBA91A8A920A00DB46A5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		F487BBAB1A8A920A00DB46A5 /* APPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APPViewController.h; sourceTree = "<group>"; };
 		F487BBAC1A8A920A00DB46A5 /* APPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APPViewController.m; sourceTree = "<group>"; };
 		F487BBAF1A8A920A00DB46A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/APPViewController.xib; sourceTree = "<group>"; };
@@ -96,13 +92,11 @@
 		F487BB9A1A8A920A00DB46A5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				34AE81591A8ACB5700E501DE /* Default@2x.png */,
 				F487BB9B1A8A920A00DB46A5 /* Camera-Info.plist */,
 				F487BB9C1A8A920A00DB46A5 /* InfoPlist.strings */,
 				F487BB9F1A8A920A00DB46A5 /* main.m */,
 				F487BBA11A8A920A00DB46A5 /* Camera-Prefix.pch */,
-				F487BBA51A8A920A00DB46A5 /* Default.png */,
-				F487BBA71A8A920A00DB46A5 /* Default@2x.png */,
-				F487BBA91A8A920A00DB46A5 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -159,10 +153,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34AE815A1A8ACB5700E501DE /* Default@2x.png in Resources */,
 				F487BB9E1A8A920A00DB46A5 /* InfoPlist.strings in Resources */,
-				F487BBA61A8A920A00DB46A5 /* Default.png in Resources */,
-				F487BBA81A8A920A00DB46A5 /* Default@2x.png in Resources */,
-				F487BBAA1A8A920A00DB46A5 /* Default-568h@2x.png in Resources */,
 				F487BBB01A8A920A00DB46A5 /* APPViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,6 +293,7 @@
 				F487BBB51A8A920A00DB46A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
